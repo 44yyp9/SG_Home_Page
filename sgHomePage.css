@@ -1,7 +1,22 @@
-h1{
-    color: red;
+.head_container{
+    padding: 20px;
+    display: flexbox;
+    justify-content: space-between;
+    h1{
+        color: aqua;
+        font-size: 36px;
+    }
 }
-h2{
-    /* ブルーにする */
-    color: blue;
+header{
+    width: 100%;
+    height: 320 px;
+    background: url(images\tsukuri.PNG);
+    background-size: cover;
+    background-position: center;
+}
+header ul li{
+    display: inline-block;
+}
+.bottom_container{
+    padding: 100px;
 }
