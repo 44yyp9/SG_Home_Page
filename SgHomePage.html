@@ -1,33 +1,186 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>SG Home Page</title>
-        <link rel="stylesheet" href="SgHomePage.css">
-    </head>
-    <body>
-        <div class="head_container">
-            <div>
-                <h1>SG Home Page</h1>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPortfolio</title>
+    <link rel="stylesheet" href="sgHomePage.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay">
+        <h1 class="overlay-text">Welcome to SG Portfolio</h1>
+    </div>
+    <article>
+        <header style="position: relative; left: 50%; transform: translateX(-50%); width: 100vw; margin-top: 0;">
+            <img src="images/SPX-4160.png" alt="Cover Image"
+                style="width: 100vw; max-height: 30vh; object-fit: cover; display: block; margin: 0;">
+                <div class="header-text">
+                    <h1>SG Portfolio</h1>
+                    <p>ゲーム開発者のポートフォリオ</p>
+                </div>
+        </header>     
+        <section class ="profile">
+            <div class="inner">
+            <figure>
+                <div style="text-align: center;">
+                    <h1>About Me</h1>
+                    <img src="images/nagi2.png" alt="Profile Image" style="width: 240px; border-radius: 50%;">
+                    <p>ハンドルネームはSGです<br>設計勉強中の大学生。<br>現在はゲームをチームで開発しています。<br>最近はwebアプリ開発やセキュリティに興味があります</p>
+                </div>
+            </figure>
+            <div class="profilecolumn-list">
+                <div class="profilecolumn">
+                    <div class="centered-section">
+                        <h2 class="tag-block">主な使用言語</h2>
+                        <br>
+                        <ul>
+                            <li>C#</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="profilecolumn">
+                    <div class="centered-section">
+                        <h2 class="tag-block">主なフレームワーク</h2>
+                        <br>
+                        <ul>
+                            <li>Unity</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <body>
-                <button type="button">クリック</button>
-                <button type="button">クリック</button>
-                <ul>
-                    <li><a href="https://qiita.com/hamuo3kameru">参照先</a></li>
-                    <li><a href="https://qiita.com/hamuo3kameru/items/d64b4cebdfeeb9e1fa29">参照2</a></li>
-                </ul>
-            </body>
-        </div>
-        <div class="bottom_container">
-            <iframe 
-            src="https://www.youtube.com/embed/qcO9OreN8ZQ" title="ソフきゃらいふ　サンプル動画" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
-            <iframe 
-            src="https://www.youtube.com/embed/neUEypzXcMY" title="Demons Roots Chapter 3 OST   Ground Dasher (作曲 : Shade)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-            </iframe>
-        </div>
+            <div style="text-align: center;">
+                <h3>GitHub: <a href="https://github.com/44yyp9">https://github.com/44yyp9</a></h3>
+                <h3>gmail:
+                    <a href="mailto:sg932g643@gmail.com">sg932g643@gmail.com</a>
+                </h3>
+            </div>
+            </div>
+        </section>
+        <section class="game-list">
+            <div class="inner">
+            <h1 class="section-title">Games</h1>
+            <article class="game-entry">
+                <div style="text-align: center;">
+                    <h2 class="block-color-brown_background">LAPINHA<br> (2024年10月~現在)</h2>
+                </div>
+                <div class="column-list">
+                    <div class="column">
+                        <div class="source video-container">
+                            <iframe src="https://www.youtube.com/embed/xsOUPSNpe-Q" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p>リズムに乗って敵を倒すリズムアクションゲーム!!</p>
+                            <h3>クレジット</h3>
+                            <ul>
+                                <li>マネジャー: SG</li>
+                                <li>プログラム: SG, Garume</li>
+                                <li>イラスト: あなぐろ</li>
+                                <li>UIデザイン: K1</li>
+                                <li>サウンド: まいなそ</li>
+                            </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="game-entry">
+                <div style="text-align: center;">
+                    <h2 class="block-color-brown_background">ソフきゃらいふ<br> (2024年4月~2024年10月)</h2>
+                </div>
+                <div class="column-list">
+                    <div class="column">
+                        <div class="source video-container">
+                            <iframe src="https://www.youtube.com/embed/qcO9OreN8ZQ" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p>ソフケンタウンに住むキャラクターと親睦を深めるゲーム</p>
+                            <h3>クレジット</h3>
+                            <ul>
+                                <li>マネジャー: Garume</li>
+                                <li>プランナー: Zas</li>
+                                <li>プログラム: SG</li>
+                                <li>イラスト: あなぐろ</li>
+                                <li>UIデザイン: K1</li>
+                                <li>サウンド: シン・まいなそ</li>
+                            </ul>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a href="https://tdu-src.github.io/SRC_novel_game/"><button class="play-button">プレイ!</button></a>
+                </div>
+            </article>
 
-    </body>
+            <article class="game-entry">
+                <div style="text-align: center;">
+                    <h2 class="block-color-brown_background">めもりのめもりある<br> (2024年10月~2024年12月)</h2>
+                </div>
+                    <div class="column-list">
+                    <div class="column">
+                        <div class="source video-container">
+                            <iframe src="https://www.youtube.com/embed/eo4jab7RCpM" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p>1ヶ月で作ったスイカライクなゲームシナリオとスイカゲームが遊べます!!</p>
+                            <h3>クレジット</h3>
+                            <ul>
+                                <li>マネジャー: SG</li>
+                                <li>プランナー: うらさん</li>
+                                <li>プログラム: i今井</li>
+                                <li>イラスト: 奏巴・IX</li>
+                                <li>UIデザイン: koo</li>
+                                <li>サウンド: 〇田</li>
+                            </ul>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a href="https://unityroom.com/games/memori"><button class="play-button">プレイ!</button></a>
+                </div>
+            </article>
+
+            <article class="game-entry">
+                <div style="text-align: center;">
+                    <h2 class="block-color-brown_background">マジ神神神ゲーム<br> (2023年6月~2023年11月)</h2>
+                </div>
+                    <div class="column-list">
+                    <div class="column">
+                        <div class="source video-container">
+                            <iframe src="https://www.youtube.com/embed/m4UJKeDroqY" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p>某掲示板のキャラクターを操作する2dアクションゲーム</p>
+                            <h3>クレジット</h3>
+                            <ul>
+                                <li>個人開発のためアセット全て<br><br><br><br><br><br></li>
+                            </ul>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a href="https://unityroom.com/games/nekoneko_1"><button class="play-button">プレイ!</button></a>
+                </div>
+            </article>
+            </div>
+        </section>
+    </article>
+</body>
 </html>
